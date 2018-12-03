@@ -1,0 +1,17 @@
+Steps for Converting Existing app to lambda function and create apigateway
+
+1)install claudia
+npm install claudia -g
+
+2)Generate AWS Lambda wrapper for your express-app with claudia using 
+claudia generate-serverless-express-proxy --express-module <name of your index file>
+
+3)Create functions and gateway using -- 
+claudia create --handler lambda.handler --deploy-proxy-api --region eu-central-1
+
+4)If any update then run 
+claudia update
+
+
+Reference Link --
+https://medium.freecodecamp.org/express-js-and-aws-lambda-a-serverless-love-story-7c77ba0eaa35

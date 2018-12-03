@@ -1,0 +1,21 @@
+{
+  "name": "aws-serverless",
+  "version": "1.0.0",
+  "description": "dynamodb demo with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  ./bin/www"
+  },
+  "author": "vivek rajyaguru",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.291.0",
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "uuid": "^3.3.2"
+  }
+}

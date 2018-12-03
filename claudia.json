@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "aws-serverless-executor",
+    "name": "aws-serverless",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "f18kq3ajzc"
+  }
+}
